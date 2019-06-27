@@ -1,0 +1,256 @@
+body {
+  margin-top: 100px;
+}
+
+#wrapper {
+  padding-left: 0px;
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Top Navigation bar */
+.top-nav {
+  padding: 0 35px;
+}
+
+.top-nav > li {
+  display: inline-block;
+}
+
+.top-nav > li a {
+  color: #999999;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: 0.6s all;
+}
+
+.top-nav img{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  position:absolute;
+  margin-top: -5px;
+  margin-left:-45px;
+}
+
+.top-nav > li a:hover,
+.top-nav > li a:focus {
+  color: #000000;
+  transition: 0.6s all;
+}
+
+.rounded .img-responsive{
+  margin-left: -120px;
+}
+
+.side-nav > li {
+  margin-top: 2px;
+}
+
+.side-nav > li > ul {
+  padding: 0;
+  transition: 0.6s all;
+}
+
+.side-nav > li > ul > li > a {
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #999999;
+  display: block;
+  transition: 0.6s all;
+}
+
+.side-nav > li > ul > li > a:hover {
+  color: #fff;
+  transition: 0.6s all;
+}
+/* Top Navigation bar FIN */
+
+/* Couleur personnalisée pour les panels sur le tableau de bord */
+.huge {
+  font-size: 40px;
+  line-height: normal;
+}
+
+.panel-green {
+  border-color: #5cd85c;
+}
+
+.panel-green > .panel-heading {
+  color: #fff;
+  background-color: #5cd85c;
+}
+
+.panel-green > a {
+  color: #5cd85c;
+  transition: 0.6s all;
+}
+
+.panel-green > a:hover {
+  color: #3d8c3d;
+  transition: 0.6s all;
+}
+
+.panel-orange {
+  border-color: #f0ad4e;
+}
+
+.panel-orange > .panel-heading {
+  color: #fff;
+  background-color: #f0ad4e;
+}
+
+.panel-orange > a {
+  color: #f0ad4e;
+  transition: 0.6s all;
+}
+
+.panel-orange > a:hover {
+  color: #ba8539;
+  transition: 0.6s all;
+}
+
+.panel-red {
+  border-color: #d9534f;
+}
+
+.panel-red > .panel-heading {
+  color: #fff;
+  background-color: #d9534f;
+}
+
+.panel-red > a {
+  color: #d9534f;
+  transition: 0.6s all;
+}
+
+.panel-red > a:hover {
+  color: #8d4341;
+  transition: 0.6s all;
+}
+/* Couleur personnalisée pour les panels sur le tableau de bord FIN */
+
+/* admin profil style */
+.panel-body {
+  border-radius: 5px;
+}
+
+.thumb-info {
+  position: relative;
+}
+
+.rounded {
+  border-radius: 2px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 10px 0 10px 0;
+}
+
+hr.dotted {
+  border-bottom: 1px #dddddd dotted;
+  height: 1px;
+  margin: 10px 0 10px 0;
+}
+
+.thumb-info .thumb-info-title {
+  background: rgba(36, 27, 28, 0.9);
+  bottom: 10%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -1px;
+  padding: 9px 11px 9px;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.thumb-info .thumb-info-inner {
+  display: block;
+}
+
+.thumb-info .thumb-info-type {
+  background: #0088cc;
+  display: inline-block;
+  border-radius: 2px;
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 8px -2px -15px -2px;
+  padding: 2px 9px;
+  text-transform: none;
+}
+
+.widget-content-expanded {
+  font-size: 15px;
+}
+
+.widget-content-expanded span {
+  font-weight: 600;
+}
+
+.widget-content-expanded i {
+  color: #0088cc;
+  margin-right: 5px;
+}
+/* admin profil style FIN */
+
+/* Media query */
+
+@media (min-width: 768px) {
+  body {
+    margin-top: 50px;
+  }
+
+  #wrapper {
+    padding-left: 255px;
+  }
+
+  #page-wrapper {
+    padding: 10px;
+  }
+
+  .side-nav {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    width: 255px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #504646;
+    padding-bottom: 40px;
+    border-radius: 0;
+  }
+
+  .side-nav > li > a {
+    width: 255px;
+    transition: 0.6s all;
+  }
+
+  .side-nav > li > a:hover,
+  .side-nav > li > a:focus {
+    transition: 0.6s all;
+    outline: none;
+    background-color: rgb(209, 197, 197) !important;
+  }
+}
+
+/*.toggle-modal {
+  width: 200px;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 9999;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}*/
